@@ -71,7 +71,7 @@ final class YourProjectUITests: XCTestCase {
 ## 2、把SwiftMonkeyPaws文件夹拖入到开发工程中，MonkeyPaws.swift/MonkeyPawDrawer.swift/Configuration.swift/UIColor+MonkeyPaws.swift四个类需要依赖dev目标工程(即需要在Build Phases/Compile Sources中导入)。
 ### 如果是纯OC项目，需要稍微修改下源代码
 ```
-    // MonkeyPaws.swift新增初始化方法：提供给OC调用，因为Swift的结构体等特有类型（比如参数是struct等）不能通过@objc暴露给OC使用
+    // MonkeyPaws.swift新增初始化方法：提供给OC调用，因为Swift的结构体等特有类型（比如参数是struct等）不能通过@objc暴露给OC调用
     public init(view: UIView) {
         self.configuration = Configuration()
         self.bezierPathDrawer = MonkeyPawDrawer.monkeyHandPath
@@ -93,9 +93,8 @@ final class YourProjectUITests: XCTestCase {
 ```
 
 ## 3、在Build Setting/Define Modules，确保设置为 YES（适用于 Swift 项目）
-## 4、
 
-## 5、在 App 启动时didFinishLaunchingWithOptions，配置
+## 4、在 App 启动时didFinishLaunchingWithOptions，配置
 
 ## OC版本
 ```
