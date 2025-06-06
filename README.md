@@ -2,7 +2,7 @@
 iOS自动化测试，模拟用户每100毫秒随机触发一个动作（一般是点击事件或Pan手势），OC和Swift均支持
 
 # KJSwiftMonkey 暴力测试专用
-## 1、新建一个Target,类型为UI Testing Bundle.一般选Swift版本,把SwiftMonkey.framework倒入到新Target中
+## 1、新建一个Target,类型为UI Testing Bundle.一般选Swift版本,把SwiftMonkey.framework导入到新UI Testing Target中
 ## 接入UI测试代码
 ```
 import XCTest
