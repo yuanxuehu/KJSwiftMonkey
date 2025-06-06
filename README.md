@@ -124,4 +124,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 ## [SwiftMonkey官网](https://github.com/zalando/SwiftMonkey)
-## 用到SwiftMonkey和SwiftMonkeyPaws这两个文件夹📁
+## 用到SwiftMonkey（关键源码）和SwiftMonkeyPaws（具体操作路径展示在屏幕📱上）这两个文件夹📁
